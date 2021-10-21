@@ -1,6 +1,4 @@
 import java.util.Scanner;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 
 public class Ejercicio3 {
     public static void main(String[] args) {
@@ -8,7 +6,6 @@ public class Ejercicio3 {
         int num = scan.nextInt();
         String resultado = "";
         scan.close();
-        
         for (int i = 0; i < num; i++) {
             System.out.println(resultado + (i + 1));
             resultado = resultado + String.valueOf(i + 1);

@@ -8,13 +8,10 @@ public class Ejercicio2 {
         lista.add(3);
         lista.add(4);
         lista.add(5);
-
         System.out.println(lista);
         System.out.println(lista.size());
-
         lista.add(0, 6);
         lista.add(7);
-
         System.out.println(lista);
         System.out.println(lista.size());
         

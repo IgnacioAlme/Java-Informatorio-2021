@@ -6,11 +6,9 @@ public class Ejercicio5 {
         int num1 = scan.nextInt();
         int num2 = scan.nextInt();
         int resultado = 0;
-
         for (int i = 0; i < num2 ; i++) {
             resultado = resultado + num1;
         }
-
         System.out.println(num1 + " x " + num2 + " = " + resultado);
     }
 }

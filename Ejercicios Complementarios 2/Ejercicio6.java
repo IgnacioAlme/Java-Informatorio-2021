@@ -10,7 +10,6 @@ public class Ejercicio6 {
         Scanner entrada=new Scanner(System.in);
         Set<ArrayList<String>> empleados = new HashSet<ArrayList<String>>();
         Map<Integer, Integer> sueldos = new HashMap<Integer, Integer>();
-        
         System.out.println("Ingrese cantidad de empleados:");
         int cantEmpleados=Integer.parseInt(entrada.nextLine());
         for (int i=0;i<cantEmpleados;i++){

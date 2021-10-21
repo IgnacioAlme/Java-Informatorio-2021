@@ -6,9 +6,7 @@ public class Ejercicio6 {
         int num1 = scan.nextInt();
         int num2 = scan.nextInt();
         int resultado = 1;
-
         scan.close();
-
         for (int i = 1; i <= num2; i++) {
             resultado = resultado * num1;
         }

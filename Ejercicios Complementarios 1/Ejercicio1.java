@@ -5,7 +5,6 @@ public class Ejercicio1 {
         Scanner scan = new Scanner(System.in);
         String nombre = scan.nextLine();
         scan.close();
-
         System.out.println("Hola " + nombre);
     }
 }

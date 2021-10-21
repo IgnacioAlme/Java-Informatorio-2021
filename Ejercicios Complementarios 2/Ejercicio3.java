@@ -5,14 +5,11 @@ public class Ejercicio3 {
     public static void main(String[] args) {
         ArrayList<String> baraja = new ArrayList<String>();
         llenarBaraja(baraja);
-
         System.out.println("En orden");
         System.out.println(baraja);
-
         System.out.println("Reverso");
         Collections.reverse(baraja);
         System.out.println(baraja);
-
         System.out.println("Desordenado");
         Collections.shuffle(baraja);
         System.out.println(baraja);
